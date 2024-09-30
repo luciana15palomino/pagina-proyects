@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    
+}
+/* Estilos anteriores ... */
+
+/* Estilos para la imagen de portada (hero) */
+.portada {
+    height: 80vh; /* Altura de la imagen de portada */
+    background-image: url("imagenes/portada.jpg"); /* Asegúrate de que la ruta de la imagen sea correcta */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.hero text{
+    font-family: 'Poppins', sans-serif;
+    color: #f4f4f4;
+     line-height: 1.6;
+     
+
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #f4f4f4
+}
+.hero-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #f4f4f4
+}
+
+
+
+
+/* Restantes estilos ... */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+/* Estilos para la navegación */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between; /* Esto separa los elementos hacia los extremos */
+    align-items: center; /* Alinea los elementos verticalmente */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el logo */
+.logo {
+    margin-right: auto; /* Empuja el logo hacia la izquierda */
+}
+
+.nav-logo {
+    height: 50px; /* Ajusta el tamaño del logo */
+    width: auto;
+}
+
+/* Estilos para los enlaces del menú */
+.nav-menu li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.nav-menu li a:hover {
+    color: #007BFF; /* Cambia el color cuando pasas sobre el enlace */
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.intro {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+.intro h2 {
+    color :#333;
+}
+
+.projects {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem 0;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 30%;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #333;
+}
+.project h2{
+    color: #333;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Estilos para la portada */
+.portada-sobre-mi {
+    height: 80vh; /* Altura de la portada */
+    background-image: url('imagenes/portadasobre.jpeg'); /* Asegúrate de tener la imagen en la carpeta correcta */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.contenido-portada {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.portada-sobre-mi h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.portada-sobre-mi p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Estilos para los valores */
+.valores {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+}
+
+.valor {
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    padding: 1.5rem;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.valor h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #007BFF; /* Color azul para destacar los títulos */
+}
+
+.valor p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
